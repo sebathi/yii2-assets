@@ -1,5 +1,5 @@
 {
-    "name": "sebathi/yii2-assets",
+    "name": "sebathi/yii2-comp",
     "description": "Library of assets to use with Yii2 Framework.",
     "keywords": ["yii2", "assets", "migration"],
     "type": "yii2-extension",
@@ -20,7 +20,7 @@
         "yiisoft/yii2": "~2.0"
     },
     "autoload": {
-        "psr-4": { "yii-assets\\": "" }
+        "psr-4": { "yii2comp\\": "" }
     },
     "extra": {
         "branch-alias": {

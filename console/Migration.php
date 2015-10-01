@@ -1,5 +1,5 @@
 <?php
-namespace yii2assets\console;
+namespace yii2comp\console;
 
 /**
  * Class Migration

@@ -1,4 +1,4 @@
-yii2-assets
+yii2-comp
 =========================
 
 This extension provides a library of components that were improved to use with the
@@ -14,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist sebathi/yii2-assets
+php composer.phar require --prefer-dist sebathi/yii2-comp
 ```
 
 or add
 
 ```json
-"sebathi/yii2-assets": "~2.0.0"
+"sebathi/yii2-comp": "~2.0.0"
 ```
 
 to the require section of your composer.json.
@@ -29,4 +29,4 @@ index
 -----
 
 The following components are included:
-- yii2assets/console/Migration
+- yii2comp/console/Migration: Migration with error detection support and resolution.
