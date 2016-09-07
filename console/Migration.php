@@ -211,14 +211,14 @@ class Migration extends \yii\db\Migration
      * show the message and the trace.
      * @param \Exception $e
      */
-    public function throwException(\Exception $e)
+    public function throwException(\Exception $exception)
     {
         if (!$this->useTryCatch) {
-            throw $e;
+            throw $exception;
         } elseif ($this->showExceptionMessage) {
-            echo $e->getMessage();
+            echo $exception->getMessage();
             if ($this->showStackTrace){
-                echo $e->getTraceAsString();
+                echo $exception->getTraceAsString();
             }
         }
         echo ' - EXCEPTION - ';
